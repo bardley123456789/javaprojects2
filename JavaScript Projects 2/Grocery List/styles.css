@@ -67,8 +67,14 @@ Global Styles
   box-sizing: border-box;
 }
 body {
+  background: linear-gradient(
+      110deg,
+      rgba(102, 211, 250, 0.6),
+      rgba(250, 163, 220, 0.6)
+    ),
+    url(./groceries.jpg);
+  background-attachment: fixed;
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
