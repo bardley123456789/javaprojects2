@@ -47,12 +47,12 @@ Variables
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
-  --spacing: 0.25rem;
+  --spacing: 0.4rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --max-width: 1170px;
-  --fixed-width: 620px;
+  --max-width: 1500px;
+  --fixed-width: 1111px;
 }
 /*
 =============== 
@@ -104,7 +104,7 @@ h2 {
   font-size: 2rem;
 }
 h3 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 h4 {
   font-size: 0.875rem;
@@ -121,10 +121,10 @@ p {
     font-size: 2.5rem;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   h4 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   body {
     font-size: 1rem;
@@ -158,13 +158,13 @@ p {
 }
 /* section */
 .section {
-  padding: 5rem 0;
+  padding: 10rem 0;
 }
 
 .section-center {
   width: 90vw;
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 900px;
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -183,7 +183,7 @@ Modal
 */
 .hero {
   min-height: 100vh;
-  background: url("./hero.jpeg") center/cover no-repeat;
+  background: url("./hero.jpg") center/cover no-repeat;
   display: grid;
   place-items: center;
 }
@@ -230,6 +230,7 @@ Modal
   width: 90vw;
   height: 30vh;
   max-width: var(--fixed-width);
+  margin: 30px;
   text-align: center;
   display: grid;
   place-items: center;
